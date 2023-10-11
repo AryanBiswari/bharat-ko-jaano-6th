@@ -13,21 +13,9 @@ const sidebarRounds = [
   "elimination",
   "passing",
   "group",
-  "pictureA",
-  "pictureB",
-  "pictureC",
-  "pictureD",
-  "pictureE",
-  "videoA",
-  "videoB",
-  "videoC",
-  "videoD",
-  "videoE",
-  "audioA",
-  "audioB",
-  "audioC",
-  "audioD",
-  "audioE",
+  "picture",
+  "video",
+  "audio",
   "fastest",
   "box",
   "patianceA",
@@ -849,98 +837,134 @@ const questions = [
 
   //Images Round start from here
   {
-    round: "pictureA",
+    round: "picture",
     format: "image",
+    questionContent: 'SET-A यह किस गाने की धुन है',
     question: "images/4.jpeg",
-    answer: "Radha",
+    answer: "सी.वी. रमन",
   },
   {
-    round: "pictureB",
+    round: "picture",
     format: "image",
-    question: "images/2.jpg",
-    answer: "Radha",
+    questionContent: 'SET-B यह किस गाने की धुन है',
+    question: "images/neha.jpeg",
+    answer: "2002",
   },
   {
-    round: "pictureC",
+    round: "picture",
     format: "image",
-    question: "images/1.jpg",
-    answer: "Radha",
+    questionContent: 'SET-C यह किस गाने की धुन है',
+    question: "images/mal.jpeg",
+    answer: "मलखम्ब",
   },
   {
-    round: "pictureD",
+    round: "picture",
     format: "image",
-    question: "images/2.jpg",
-    answer: "Radha",
+    questionContent: 'SET-D यह किस गाने की धुन है',
+    question: "images/pahad.jpeg",
+    answer: "हड़प्पा और मोहनजोदड़ो",
   },
   {
-    round: "pictureE",
+    round: "picture",
     format: "image",
-    question: "images/1.jpg",
-    answer: "Radha",
+    questionContent: 'SET-E यह किस गाने की धुन है',
+    question: "images/dance.jpeg",
+    answer: "भरतनाट्यम",
+  },
+  {
+    round: "picture",
+    format: "image",
+    questionContent: 'SET-F यह भारतीय वैज्ञानिक का चित्र है, जिन्होंने परमाणु की खोज की थी इनका नाम बताइए',
+    question: "images/rishi.jpeg",
+    answer: "महर्षि कन्नड़",
   },
 
   //Audio Round Start from here
   {
-    round: "audioA",
+    round: "audio",
     format: "audio",
-    question: "audios/1.mp3",
-    answer: "Radha",
+    questionContent: 'SET-A यह किस गाने की धुन है',
+    question: "audios/aarambh.mpeg",
+    answer: "आरंभ है प्रचंड",
   },
   {
-    round: "audioB",
+    round: "audio",
     format: "audio",
-    question: "audios/2.mp3",
-    answer: "Radha",
+    questionContent: 'SET-B यह किस अभिनेता की आवाज है',
+    question: "audios/amit.mpeg",
+    answer: "श्री अमिताभ बच्चन",
   },
   {
-    round: "audioC",
+    round: "audio",
     format: "audio",
-    question: "audios/3.mp3",
-    answer: "Radha",
+    questionContent: 'SET-C यह किस चलचित्र का वार्ता है',
+    question: "audios/bahu.mpeg",
+    answer: "बाहुबली",
   },
   {
-    round: "audioD",
+    round: "audio",
     format: "audio",
-    question: "audios/1.mp3",
-    answer: "Radha",
+    questionContent: 'SET-D यह भारत के किस क्रांतिकारी का नारा था',
+    question: "audios/kranti.mpeg",
+    answer: "सुभाष चंद्र बोस",
   },
   {
-    round: "audioE",
+    round: "audio",
     format: "audio",
+    questionContent: 'SET-E यह गाना किस गायका के द्वारा गया गया है',
+    question: "audios/harsh.mpeg",
+    answer: "हर्षदीप कौर",
+  },
+  {
+    round: "audio",
+    format: "audio",
+    questionContent: 'SET-F यह किस गाने की धुन है',
     question: "audios/2.mp3",
     answer: "Radha",
   },
 
   //Video Round starts from here
   {
-    round: "videoA",
+    round: "video",
     format: "video",
-    question: "videos/1.mp4",
-    answer: "Radha",
+    questionContent: 'SET-A इस प्रसंग में राम जी द्वारा किसका उद्धार किया गया है',
+    question: "videos/ram.mp4",
+    answer: "माता अहिल्या",
   },
   {
-    round: "videoB",
+    round: "video",
     format: "video",
-    question: "videos/2.mp4",
-    answer: "Radha",
+    questionContent: 'SET-B इस मूर्ति का नाम क्या है',
+    question: "videos/shiv.mp4",
+    answer: "आदियोगी शिव",
   },
   {
-    round: "videoC",
+    round: "video",
     format: "video",
-    question: "videos/3.mp4",
-    answer: "Radha",
+    questionContent: 'SET-C यह भारत की किस प्रसिद्ध राजनेता का भाषण है',
+    question: "videos/speech.mp4",
+    answer: "प्रतिभा पाटिल",
   },
   {
-    round: "videoD",
+    round: "video",
     format: "video",
-    question: "videos/4.mp4",
-    answer: "Radha",
+    questionContent: 'SET-D यह भारत के किस हत्याकांड का दृश्य है',
+    question: "videos/murder.mp4",
+    answer: "जलियांवाला बाग हत्याकांड",
   },
   {
-    round: "videoE",
+    round: "video",
     format: "video",
-    question: "videos/1.mp4",
-    answer: "Radha",
+    questionContent: 'SET-E यह दुनिया की सबसे बड़ी प्रतिमा है यह किस नदी के तट पर स्थित है',
+    question: "videos/vid.mp4",
+    answer: "सरदार सरोवर dam",
+  },
+  {
+    round: "video",
+    format: "video",
+    questionContent: 'SET-F यह किस चलचित्र का दृश्य',
+    question: "videos/sholay.mp4",
+    answer: "शोले",
   },
   //Fastest fastest from here
 
@@ -1069,11 +1093,11 @@ function showQuestion(index) {
   questionText.textContent = currentQuestion.question;
 
   if (currentQuestion.format === "image") {
-    questionText.innerHTML = `<img src="${currentQuestion.question}" alt="Question Image">`;
+    questionText.innerHTML = `<p class="questionPara">${currentQuestion.questionContent}</p><img src="${currentQuestion.question}" alt="Question Image">`;
   } else if (currentQuestion.format === "audio") {
-    questionText.innerHTML = `<audio controls><source src="${currentQuestion.question}" type="audio/mp3">Your browser does not support the audio element.</audio>`;
+    questionText.innerHTML = `<p class="questionPara">${currentQuestion.questionContent}</p><audio controls><source src="${currentQuestion.question}" type="audio/mp3">Your browser does not support the audio element.</audio>`;
   } else if (currentQuestion.format === "video") {
-    questionText.innerHTML = `<video controls><source src="${currentQuestion.question}" type="video/mp4">Your browser does not support the video element.</video>`;
+    questionText.innerHTML = `<p class="questionPara">${currentQuestion.questionContent}</p><video controls><source src="${currentQuestion.question}" type="video/mp4">Your browser does not support the video element.</video>`;
   }
 
   answerText.textContent = currentQuestion.answer;
@@ -1121,27 +1145,27 @@ roundList.addEventListener("click", (event) => {
 // Initialize default round and questions
 showRoundQuestions(currentRoundId);
 
-document.addEventListener("DOMContentLoaded", function () {
-  const yearElement = document.getElementById("year");
-  const currentYear = new Date().getFullYear();
-  yearElement.textContent = currentYear;
-});
-// Show the modal when the copyright symbol is clicked
-copyrightSymbol.addEventListener("click", function () {
-  // modal.style.display = "block";
-  modal.classList.add("active");
-});
+// document.addEventListener("DOMContentLoaded", function () {
+//   const yearElement = document.getElementById("year");
+//   const currentYear = new Date().getFullYear();
+//   yearElement.textContent = currentYear;
+// });
+// // Show the modal when the copyright symbol is clicked
+// copyrightSymbol.addEventListener("click", function () {
+//   // modal.style.display = "block";
+//   modal.classList.add("active");
+// });
 
-// Close the modal when the close button is clicked
-closeModal.addEventListener("click", function () {
-  // modal.style.display = "none";
-  modal.classList.remove("active");
-});
+// // Close the modal when the close button is clicked
+// closeModal.addEventListener("click", function () {
+//   // modal.style.display = "none";
+//   modal.classList.remove("active");
+// });
 
-// Close the modal when clicking outside of it
-window.addEventListener("click", function (event) {
-  if (event.target == modal) {
-    // modal.style.display = "none";
-    modal.classList.remove("active");
-  }
-});
+// // Close the modal when clicking outside of it
+// window.addEventListener("click", function (event) {
+//   if (event.target == modal) {
+//     // modal.style.display = "none";
+//     modal.classList.remove("active");
+//   }
+// });

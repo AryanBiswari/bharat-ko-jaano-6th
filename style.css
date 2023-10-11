@@ -14,7 +14,7 @@ html{
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('images/3.jpg'); 
+    background-image: url('images/b.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@ nav {
   }
 
 .sidebar {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.7);
   color: white;
   width: 250px;
   padding: 20px;
@@ -124,7 +124,7 @@ nav {
 }
 #question-text {
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     /* font-weight: 600; */
 }
 
@@ -167,7 +167,7 @@ nav {
 }
 
 #answer-text {
-    margin-top: 30px;
+    /* margin-top: 30px; */
   text-align: center;
   color: green;
   font-weight: 900;
@@ -287,14 +287,17 @@ nav {
 
 @media (max-width: 1400px) {
     nav {
-      
+      height: 6.5rem;
       text-align: center;
       /* padding: 10px; */
     }
-  
+    nav .logo{
+        height: 6rem;
+    }
     .logo {
         margin-right: 0px;
       margin-bottom: 0px; /* Add spacing between logo and text */
+      /* height: 6rem; */
     }
   
     h1 {
@@ -327,12 +330,20 @@ nav {
     }
     .sidebar{
         width: 230px;
-        height: 74.2vh;
+        height: 77.2vh;
+        top: 100px;
     }
     .quiz-container{
         max-width: 630px;
     }
     .dropdown-content{
         max-height: 150px;
+    }
+    .questionPara{
+        font-size: 25px;
+    }
+    p img{
+        height: 15rem;
+        width: 20rem;
     }
   }
