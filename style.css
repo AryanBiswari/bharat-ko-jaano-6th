@@ -37,6 +37,7 @@ p img{
 video{
     height: 20rem;
     width: 40rem;
+    object-fit: cover;
 }
 .container {
     max-width: 960px;

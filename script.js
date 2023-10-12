@@ -839,45 +839,45 @@ const questions = [
   {
     round: "picture",
     format: "image",
-    questionContent: 'SET-A यह किस गाने की धुन है',
+    questionContent: 'SET-A यह भारत के किस भौतिक विज्ञानी का चित्र है जिन्होंने रमन प्रभाव की खोज कि थी',
     question: "images/4.jpeg",
     answer: "सी.वी. रमन",
   },
   {
     round: "picture",
     format: "image",
-    questionContent: 'SET-B यह किस गाने की धुन है',
+    questionContent: 'SET-B यह नेहा धूपिया का चित्र है , बताइए यह किस वर्ष में मिस भारत बनी थी',
     question: "images/neha.jpeg",
     answer: "2002",
   },
   {
     round: "picture",
     format: "image",
-    questionContent: 'SET-C यह किस गाने की धुन है',
+    questionContent: 'SET-C यह भारत के किस परंपरागत खेल का चित्र है',
     question: "images/mal.jpeg",
     answer: "मलखम्ब",
   },
   {
     round: "picture",
     format: "image",
-    questionContent: 'SET-D यह किस गाने की धुन है',
+    questionContent: 'SET-D यह भारत की किस ऐतिहासिक सभ्यता का दृश्य है',
     question: "images/pahad.jpeg",
     answer: "हड़प्पा और मोहनजोदड़ो",
   },
   {
     round: "picture",
     format: "image",
-    questionContent: 'SET-E यह किस गाने की धुन है',
+    questionContent: 'SET-E यह भारत की कौन सी प्रसिद्ध नृत्य कला है',
     question: "images/dance.jpeg",
     answer: "भरतनाट्यम",
   },
-  {
-    round: "picture",
-    format: "image",
-    questionContent: 'SET-F यह भारतीय वैज्ञानिक का चित्र है, जिन्होंने परमाणु की खोज की थी इनका नाम बताइए',
-    question: "images/rishi.jpeg",
-    answer: "महर्षि कन्नड़",
-  },
+  // {
+  //   round: "picture",
+  //   format: "image",
+  //   questionContent: 'SET-F यह भारतीय वैज्ञानिक का चित्र है, जिन्होंने परमाणु की खोज की थी इनका नाम बताइए',
+  //   question: "images/rishi.jpeg",
+  //   answer: "महर्षि कन्नड़",
+  // },
 
   //Audio Round Start from here
   {
@@ -915,13 +915,13 @@ const questions = [
     question: "audios/harsh.mpeg",
     answer: "हर्षदीप कौर",
   },
-  {
-    round: "audio",
-    format: "audio",
-    questionContent: 'SET-F यह किस गाने की धुन है',
-    question: "audios/2.mp3",
-    answer: "Radha",
-  },
+  // {
+  //   round: "audio",
+  //   format: "audio",
+  //   questionContent: 'SET-F यह किस गाने की धुन है',
+  //   question: "audios/2.mp3",
+  //   answer: "Radha",
+  // },
 
   //Video Round starts from here
   {
@@ -959,13 +959,13 @@ const questions = [
     question: "videos/vid.mp4",
     answer: "सरदार सरोवर dam",
   },
-  {
-    round: "video",
-    format: "video",
-    questionContent: 'SET-F यह किस चलचित्र का दृश्य',
-    question: "videos/sholay.mp4",
-    answer: "शोले",
-  },
+  // {
+  //   round: "video",
+  //   format: "video",
+  //   questionContent: 'SET-F यह किस चलचित्र का दृश्य',
+  //   question: "videos/sholay.mp4",
+  //   answer: "शोले",
+  // },
   //Fastest fastest from here
 
 {round: 'fastest', format: 'text', question: '1. षेत्रफल की दृष्टि से भारत का सबसे बड़ा राज्‍य कौन सा है ', answer: 'राजस्‍थान'},
@@ -1097,7 +1097,7 @@ function showQuestion(index) {
   } else if (currentQuestion.format === "audio") {
     questionText.innerHTML = `<p class="questionPara">${currentQuestion.questionContent}</p><audio controls><source src="${currentQuestion.question}" type="audio/mp3">Your browser does not support the audio element.</audio>`;
   } else if (currentQuestion.format === "video") {
-    questionText.innerHTML = `<p class="questionPara">${currentQuestion.questionContent}</p><video controls><source src="${currentQuestion.question}" type="video/mp4">Your browser does not support the video element.</video>`;
+    questionText.innerHTML = `<p class="questionPara">${currentQuestion.questionContent}</p><video controls poster="images/poster.jpg"><source src="${currentQuestion.question}" type="video/mp4">Your browser does not support the video element.</video>`;
   }
 
   answerText.textContent = currentQuestion.answer;
