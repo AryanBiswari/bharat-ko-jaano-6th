@@ -44,13 +44,13 @@ const questions = [
   {
     round: "elimination",
     format: "text",
-    question: "1. भारत की सबसे बड़ी झील कौन सी है",
+    question: "1. भारत की मीठे पानी की सबसे बड़ी झील कौन सी है",
     answer: "वूल्‍हर झील",
   },
   {
     round: "elimination",
     format: "text",
-    question: "2. सबसे बड़ा डेल्‍टा",
+    question: "2. भारत का सबसे बड़ा डेल्‍टा",
     answer: "सुन्‍दर वन, पश्चिम बंगाल",
   },
   {
@@ -732,8 +732,8 @@ const questions = [
   {
     round: "patianceB",
     format: "text",
-    question: "2.	महावीर स्‍वामी को ज्ञान किस वृक्ष के नीचे प्राप्‍त हुआ था ",
-    answer: "अशोक",
+    question: "2.	महात्मा बुद्ध का जन्म कहां हुआ था",
+    answer: "लुंबिनी",
   },
   {
     round: "patianceC",
@@ -897,7 +897,7 @@ const questions = [
   {
     round: "audio",
     format: "audio",
-    questionContent: 'SET-C यह किस चलचित्र का वार्ता है',
+    questionContent: 'SET-C यह किस फिल्म का डायलॉग है',
     question: "audios/bahu.mpeg",
     answer: "बाहुबली",
   },
@@ -968,7 +968,7 @@ const questions = [
   // },
   //Fastest fastest from here
 
-{round: 'fastest', format: 'text', question: '1. षेत्रफल की दृष्टि से भारत का सबसे बड़ा राज्‍य कौन सा है ', answer: 'राजस्‍थान'},
+{round: 'fastest', format: 'text', question: '1. क्षेत्रफल की दृष्टि से भारत का सबसे बड़ा राज्य कौन सा है ', answer: 'राजस्‍थान'},
 {round: 'fastest', format: 'text', question: '2. भारत के प्रथम श्रम मंत्री कौन थे  ', answer: ' बाबू जगजीवन राम '},
 {round: 'fastest', format: 'text', question: '3. स्‍वतंत्र भारत में प्रथम आम चुनाव कब हुआ था  ', answer: ' 1952 में'},
 {round: 'fastest', format: 'text', question: '4. सबसे ऊंची मीनार कौन सी है  ', answer: ' कुतुब मीनार, दिल्‍ली'},
@@ -982,7 +982,7 @@ const questions = [
 {round: 'fastest', format: 'text', question: '12.  कांग्रेस (आई) के प्रथम अध्‍यक्ष कौन थे  ', answer: ' बाबू जगजीवन राम'},
 {round: 'fastest', format: 'text', question: '13.  पैंथर पार्टी किस राज्‍य का राजनीतिक दल है  ', answer: ' जम्‍मू–कश्‍मीर'},
 {round: 'fastest', format: 'text', question: '14.  राष्‍ट्रपति के चुनाव में सर्वाधिक अन्‍तर से जीतने वाले व्‍यक्ति कौन थे  ', answer: ' डॉ. राजेनद्र प्रसाद'},
-{round: 'fastest', format: 'text', question: '15.  राज्‍य सभा में अधिकतम सदस्‍य संख्‍या किनती हो सकती है  ', answer: ' 250 सदस्‍य'},
+{round: 'fastest', format: 'text', question: '15.  राज्‍य सभा में अधिकतम सदस्‍य संख्‍या कितनी हो सकती है  ', answer: ' 250 सदस्‍य'},
 {round: 'fastest', format: 'text', question: '16.  सर्वाधिक प्रतिशत वोट प्राप्‍त करने वाले राष्‍ट्रपति कौन थे  ', answer: ' डॉ. राजेन्‍द्र प्रसाद'},
 {round: 'fastest', format: 'text', question: '17.  भारत में सर्वाधिक उगाई जाने वाली फसल कौन सी है  ', answer: ' चावल'},
 {round: 'fastest', format: 'text', question: '18.  भारत में सबसे ज्‍यादा जूट मिलें किस प्रदेश में हैं  ', answer: ' पश्चिम बंगाल'},
@@ -1007,7 +1007,7 @@ const questions = [
 {round: 'fastest', format: 'text', question: '37.  नवरात्रों के दूसरे दिन दुर्गा के किस रूप की पूजा की जाती है  ', answer: ' ब्रहम्‍चारिणी'}, 
 {round: 'fastest', format: 'text', question: '38.  सूर्य की पुत्री किस नदी को माना जाता है  ', answer: ' यमुना नदी '},
 {round: 'fastest', format: 'text', question: '39.  दशरथ किस राजवंश के राजा था  ', answer: ' इक्ष्‍वाकु '},
-{round: 'fastest', format: 'text', question: '40.  गंगा किसकी तपस्‍या से धरती पर आई थी  ', answer: ' भागीरथी'},
+{round: 'fastest', format: 'text', question: '40.  गंगा किसकी तपस्‍या से धरती पर आई थी  ', answer: ' भागीरथ'},
 {round: 'fastest', format: 'text', question: '41.  कौशिक ऋषि का रामायण में सामान्‍य नाम क्‍या है  ', answer: ' विश्‍वामित्र'},
 {round: 'fastest', format: 'text', question: '42.  लक्ष्‍मण की पत्‍नी का नाम क्‍या था  ', answer: ' उर्मिला'},
 {round: 'fastest', format: 'text', question: '43.  लंका पहुंचकर हनुमान जी की सर्वप्रथम भेंट किससे हुई थी  ', answer: ' लंकिनी (लंका की देवी)'},
